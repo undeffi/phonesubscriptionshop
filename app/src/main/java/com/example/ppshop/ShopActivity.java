@@ -19,7 +19,9 @@ import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+
 import java.util.ArrayList;
+
 import androidx.appcompat.widget.Toolbar;
 
 
@@ -43,9 +45,7 @@ public class ShopActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if (id == R.id.menu_cart) {
-            return true;
-        } else if (id == R.id.menu_logout) {
+        if (id == R.id.menu_logout) {
             FirebaseAuth.getInstance().signOut();
             finish();
             return true;
@@ -56,6 +56,7 @@ public class ShopActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -78,7 +79,7 @@ public class ShopActivity extends AppCompatActivity {
         notificationManager.notify(1, builder.build());
 
         user = FirebaseAuth.getInstance().getCurrentUser();
-        if(user == null) {
+        if (user == null) {
             finish();
         }
 
