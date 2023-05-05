@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">SubShop</string>
+    <string name="intro_first_line">Irinyi Phone</string>
+    <string name="intro_second_line">A legjobb mobil szolgáltatások</string>
+    <string name="btn_login">Bejelentkezés</string>
+    <string name="btn_user_signup">Regisztráció</string>
+    <string name="enter_email">Email cím</string>
+    <string name="enter_password">Jelszó</string>
+    <string name="confirm_password">Jelszó újra</string>
+    <string name="name">Teljes név</string>
+    <string name="contact_number">Telefonszám</string>
+    <string name="logo">logo</string>
+    <string name="popular_products">Népszerű termékek</string>
+    <string name="item_info_placeholder">Információk</string>
+    <string name="item_placeholder">Termék neve</string>
+    <string name="log_out">Kijelentkezés</string>
+    <string name="cart">Kosár</string>
+    <string name="deleteUser">Felhasználó törlése</string>
+    <string name="modifyDetails">Adatmódosítás</string>
+
+    <string-array name="shopping_item_names">
+        <item>XS csomag</item>
+        <item>S csomag</item>
+        <item>M csomag</item>
+        <item>L csomag</item>
+        <item>XL csomag</item>
+        <item>XXL csomag</item>
+    </string-array>
+
+    <string-array name="shopping_item_desc">
+        <item>4 GB internet, 30 perc lebeszélhetőség</item>
+        <item>8 GB internet, 30 perc lebeszélhetőség</item>
+        <item>8 GB internet, 90 perc lebeszélhetőség</item>
+        <item>25 GB internet, hálózaton belül korlátlan, hálózaton kívül 30 perc lebeszélhetőség</item>
+        <item>Korlátlan internet, hálózaton belül korlátlan, hálózaton kívül 30 perc lebeszélhetőség</item>
+        <item>Korlátlan internet, korlátlan lebeszélhetőség</item>
+    </string-array>
+
+    <array name="shopping_item_images">
+        <item>@drawable/sim</item>
+        <item>@drawable/sim</item>
+        <item>@drawable/sim</item>
+        <item>@drawable/sim</item>
+        <item>@drawable/sim</item>
+        <item>@drawable/sim</item>
+    </array>
+
+    <array name="shopping_item_price">
+        <item>3000 Ft/hó</item>
+        <item>4500 Ft/hó</item>
+        <item>6000 Ft/hó</item>
+        <item>8000 Ft/hó</item>
+        <item>10000 Ft/hó</item>
+        <item>12000 Ft/hó</item>
+    </array>
+</resources>
